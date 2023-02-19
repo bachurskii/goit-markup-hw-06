@@ -595,6 +595,7 @@ span.type {
   padding-left: 50px;
   padding-right: 50px;
   outline: none;
+  margin-bottom: 8px;
 }
 
 .modal-inpute:focus {
@@ -603,8 +604,7 @@ span.type {
 }
 .modal-label {
   font-size: 12px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   display: block;
   color: #8e8f99;
 }
@@ -623,6 +623,9 @@ span.type {
 }
 .modal-inpute:focus + .icon-form {
   fill: #4d5ae5;
+}
+.modal-inpute:focus {
+  border-color: #4d5ae5;
 }
 .text-coment {
   display: block;
@@ -785,7 +788,14 @@ span.type {
   font-size: 16px;
   cursor: pointer;
   padding: 10px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 .email-picture {
   fill: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
